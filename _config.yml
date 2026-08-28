@@ -24,11 +24,11 @@ repository               : "mgarnier/mgarnier59.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Maxime G"
   pronouns         : # example: "she/her"
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Paris, France"
+  employer         : "Inria"
   uri              : # URL
   email            : "none@example.org"
 
