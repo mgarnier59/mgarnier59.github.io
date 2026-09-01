@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Maxime Garnier"
 title_separator          : "-"
-name                     : &name "Maxime Garnier"
-description              : &description "Maxime Garnier's personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : "Maxime Garnier"
+description              : "Maxime Garnier's personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://mgarnier59.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,7 +23,7 @@ repository               : "mgarnier/mgarnier59.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "mg.png"
   name             : "Maxime G"
   pronouns         : # example: "she/her"
   bio              : "Short biography for the left-hand sidebar"
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -140,7 +140,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : # &twitter
 facebook:
   username               :
   app_id                 :
