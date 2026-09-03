@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Maxime Garnier"
 title_separator          : "-"
 name                     : "Maxime Garnier"
-description              : "Maxime Garnier's personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : "Maxime Garnier — quantum information researcher and software developer"
 url                      : https://mgarnier59.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "mgarnier/mgarnier59.github.io"
 author:
   # Biographic information
   avatar           : "mg.jpg" # default "profile.png"
-  name             : "Maxime G"
+  name             : "Maxime Garnier"
   pronouns         : # example: "she/her"
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Quantum information researcher and software developer working on secure quantum computation and research software."
   location         : "Paris, France"
   employer         : "Inria"
   uri              : # URL
-  email            : "none@example.org"
+  email            :
 
   # Academic websites
   academia         : # URL
@@ -229,7 +229,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  software:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -275,10 +275,10 @@ defaults:
       author_profile: true
       share: false
       comments: true
-  # _portfolio
+  # _software
   - scope:
       path: ""
-      type: portfolio
+      type: software
     values:
       layout: single
       author_profile: true
