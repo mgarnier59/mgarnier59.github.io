@@ -56,6 +56,7 @@
     </p>
   {% endif %}
 {% endunless %}
+    {% unless post.collection == 'software' %}
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
@@ -83,6 +84,7 @@
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
+    {% endunless %}
     {% if post.collection == 'software' %}
       {% include software-links.html item=post %}
     {% endif %}
