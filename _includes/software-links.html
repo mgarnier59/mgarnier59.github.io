@@ -1,0 +1,11 @@
+{% if include.item.paperurl or include.item.repository %}
+  <p class="software-links">
+    {% if include.item.paperurl %}
+      <a href="{{ include.item.paperurl }}">Paper</a>
+    {% endif %}
+    {% if include.item.paperurl and include.item.repository %} | {% endif %}
+    {% if include.item.repository %}
+      <a href="{{ include.item.repository }}">Repository</a>
+    {% endif %}
+  </p>
+{% endif %}

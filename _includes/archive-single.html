@@ -83,6 +83,9 @@
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
+    {% if post.collection == 'software' %}
+      {% include software-links.html item=post %}
+    {% endif %}
 
   </article>
 </div>
